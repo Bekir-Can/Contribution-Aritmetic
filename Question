@@ -1,0 +1,47 @@
+package day_4aritmeticoperator;
+
+public class contribution {
+
+	public static void main(String[] args) {
+		/* This program calculates the amount that will be contributed to a retirement 
+		 plan if 5%, 8%; or 10% of monthly pay is withheld; 
+		 java can't understand percentages so convert  ==>  5/100= 0.05, 8/100 = 0.08, 10/100 =0.10    */
+
+		//double monthlyWage = 6000;
+		
+		//double cont = 0.05;
+		//double contri = 0.08;
+		//double contrib = 0.10;
+		
+		//double monthlyCont = monthlyWage * contri ;
+		//double monthlyContt = monthlyWage * contrib ;
+		//double monthlyContr = monthlyWage * cont ;
+		
+		//System.out.println("The monthly  8% contributionwage $ is "+ monthlyCont);
+		//System.out.println("The monthly 10% contributionwage $ is "+ monthlyContt);
+		//System.out.println("The monthly 5% contributionwage $ is "+ monthlyContr);
+		
+    /////////////////UNTIL HERE MY SOLUTION THEN OZZY SOLUTION////////////////////////////////////////
+		
+		// Variables to hold the monthly pay and the mount of the contribution
+		
+		double monthlyPay = 6000;
+		double contribution;
+		
+		// Calculate and display 5% contribution
+		
+		contribution = monthlyPay*0.05;
+		System.out.println("5 percent is $ " + contribution + "per month");
+		
+		// Calculate and display 8% contribution
+		contribution = monthlyPay*0.08;
+		
+		System.out.println("8 percent is $ " + contribution + "per month");
+		
+		// Calculate and display 8% contribution
+		contribution = monthlyPay*0.10;
+		System.out.println("10 percent is $ " + contribution + "per month");
+		
+		
+		
+		
